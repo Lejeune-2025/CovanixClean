@@ -52,8 +52,8 @@ const Quote = () => {
       const serviceLabel = t(`services.${values.service}`);
       
       const payload = {
-        ...values,
-        service: serviceLabel // Remplace la clé technique par le texte complet
+        ...values, // 1. Copie tous les champs du formulaire (y compris la localisation)
+        service: serviceLabel // 2. Remplace uniquement le champ "service" par sa version traduite
       };
 
       const res = await fetch("https://formspree.io/f/xbdabqae", {
