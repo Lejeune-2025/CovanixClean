@@ -7,6 +7,10 @@ import StatsCounter from "@/components/StatsCounter";
 import aboutTeam from "@/assets/about-team.jpg";
 import aboutMission from "@/assets/about-mission.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
+import teamMoussa from "@/assets/moussa.jpeg";
+import teamKadija from "@/assets/Kadija.jpeg";
+import teamFernand from "@/assets/Fernand.jpeg";
+import teamOumaima from "@/assets/Oumaima.jpeg";
 
 const About = () => {
   const { t, lang } = useLanguage();
@@ -27,10 +31,10 @@ const About = () => {
   ];
 
   const team = [
-    { name: "Moussa G.", role: { fr: "Fondateur & Directeur", ar: "المؤسس والمدير" }, image: `${import.meta.env.BASE_URL}images/moussa.jpeg` },
-    { name: "Khadija B.", role: { fr: "Responsable Opérations", ar: "مسؤولة العمليات" }, image: `${import.meta.env.BASE_URL}images/Kadija.jpeg` },
-    { name: "Fernand Hatousi.", role: { fr: "Chef d'Équipe", ar: "رئيس الفريق" }, image: `${import.meta.env.BASE_URL}images/Fernand.jpeg` },
-    { name: "Amina R.", role: { fr: "Relation Client", ar: "علاقات العملاء" }, image: `${import.meta.env.BASE_URL}images/Oumaima.jpeg` },
+    { name: "Moussa G.", role: { fr: "Fondateur & Directeur", ar: "المؤسس والمدير" }, image: teamMoussa },
+    { name: "Khadija B.", role: { fr: "Responsable Opérations", ar: "مسؤولة العمليات" }, image: teamKadija },
+    { name: "Fernand Hatousi.", role: { fr: "Chef d'Équipe", ar: "رئيس الفريق" }, image: teamFernand },
+    { name: "Amina R.", role: { fr: "Relation Client", ar: "علاقات العملاء" }, image: teamOumaima },
   ];
 
   const commitments = [
