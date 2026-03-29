@@ -40,7 +40,7 @@ const translations: Record<string, Record<Lang, string>> = {
   // Why choose us
   "why.title": { fr: "Pourquoi Nous Choisir", ar: "لماذا تختارنا" },
   "why.subtitle": { fr: "La qualité et la confiance au cœur de chaque intervention", ar: "الجودة والثقة في صميم كل خدمة" },
-  "why.experience": { fr: "10+ ans d'expérience", ar: "+10 سنوات خبرة" },
+  "why.experience": { fr: "2+ ans d'expérience", ar: "+10 سنوات خبرة" },
   "why.experience.desc": { fr: "Une expertise éprouvée dans le secteur du nettoyage professionnel.", ar: "خبرة مثبتة في قطاع التنظيف المهني." },
   "why.eco": { fr: "Produits écologiques", ar: "منتجات صديقة للبيئة" },
   "why.eco.desc": { fr: "Nous utilisons des produits respectueux de l'environnement et de votre santé.", ar: "نستخدم منتجات صديقة للبيئة وصحتكم." },
@@ -98,7 +98,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "about.title": { fr: "À Propos de Nous", ar: "من نحن" },
   "about.subtitle": { fr: "Votre partenaire de confiance pour des espaces impeccables", ar: "شريككم الموثوق لمساحات نظيفة" },
   "about.story": { fr: "Notre Histoire", ar: "قصتنا" },
-  "about.story.text": { fr: "Depuis plus de 10 ans, nous accompagnons les particuliers et les entreprises dans l'entretien de leurs espaces. Notre passion pour la propreté et notre engagement envers l'excellence nous ont permis de devenir une référence dans le secteur.", ar: "منذ أكثر من 10 سنوات، نرافق الأفراد والشركات في صيانة مساحاتهم. شغفنا بالنظافة والتزامنا بالتميز جعلنا مرجعًا في هذا القطاع." },
+  "about.story.text": { fr: "Depuis plus de 2 ans, nous accompagnons les particuliers et les entreprises dans l'entretien de leurs espaces. Notre passion pour la propreté et notre engagement envers l'excellence nous ont permis de devenir une référence dans le secteur.", ar: "منذ أكثر من 10 سنوات، نرافق الأفراد والشركات في صيانة مساحاتهم. شغفنا بالنظافة والتزامنا بالتميز جعلنا مرجعًا في هذا القطاع." },
   "about.mission": { fr: "Notre Mission", ar: "مهمتنا" },
   "about.mission.text": { fr: "Offrir des services de nettoyage de qualité supérieure tout en respectant l'environnement et en garantissant la satisfaction totale de nos clients.", ar: "تقديم خدمات تنظيف عالية الجودة مع احترام البيئة وضمان رضا عملائنا التام." },
   "about.values": { fr: "Nos Valeurs", ar: "قيمنا" },

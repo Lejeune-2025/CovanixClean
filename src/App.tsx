@@ -3,6 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import ScrollToTop from "@/components/ScrollToTop";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import CookieConsent from "react-cookie-consent";
 import Navbar from "@/components/Navbar";
@@ -24,6 +25,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter basename="/CovanixClean" future={{ v7_relativeSplatPath: true, v7_startTransition: true }}>
         <LanguageProvider>
+          <ScrollToTop />
           <div className="overflow-x-hidden">
           <Navbar />
           <Routes>

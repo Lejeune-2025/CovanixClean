@@ -28,14 +28,14 @@ const LegalNotice = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">Éditeur du site</h2>
               <p><strong className="text-foreground">Nom de l'entreprise :</strong> Covanix Clean</p>
-              <p><strong className="text-foreground">Adresse :</strong> [Votre Adresse Complète]</p>
-              <p><strong className="text-foreground">Téléphone :</strong> [Votre Numéro de Téléphone]</p>
-              <p><strong className="text-foreground">Email :</strong> [Votre Adresse Email]</p>
+              <p><strong className="text-foreground">Adresse :</strong> Casablanca, Maroc</p>
+              <p><strong className="text-foreground">Téléphone :</strong> +212779788196</p>
+              <p><strong className="text-foreground">Email :</strong> moussagbamou6@gmail.com</p>
             </section>
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">Hébergement</h2>
               <p><strong className="text-foreground">Hébergeur :</strong> GitHub Pages</p>
-              <p><strong className="text-foreground">Adresse :</strong> 88 Colin P Kelly Jr St, San Francisco, CA 94107, United States</p>
+              <p><strong className="text-foreground">Adresse :</strong> Casablanca, Maroc</p>
             </section>
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">Propriété intellectuelle</h2>

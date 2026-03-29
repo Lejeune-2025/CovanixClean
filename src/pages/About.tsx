@@ -27,10 +27,10 @@ const About = () => {
   ];
 
   const team = [
-    { name: "Moussa G.", role: { fr: "Fondateur & Directeur", ar: "المؤسس والمدير" }, image: "/images/moussa.jpeg" },
-    { name: "Khadija B.", role: { fr: "Responsable Opérations", ar: "مسؤولة العمليات" }, image: "/images/moussa.jpeg" },
-    { name: "Fernand Hatousi.", role: { fr: "Chef d'Équipe", ar: "رئيس الفريق" }, image: "/images/moussa.jpeg" },
-    { name: "Amina R.", role: { fr: "Relation Client", ar: "علاقات العملاء" }, image: "/images/moussa.jpeg" },
+    { name: "Moussa G.", role: { fr: "Fondateur & Directeur", ar: "المؤسس والمدير" }, image: `${import.meta.env.BASE_URL}images/moussa.jpeg` },
+    { name: "Khadija B.", role: { fr: "Responsable Opérations", ar: "مسؤولة العمليات" }, image: `${import.meta.env.BASE_URL}images/Kadija.jpeg` },
+    { name: "Fernand Hatousi.", role: { fr: "Chef d'Équipe", ar: "رئيس الفريق" }, image: `${import.meta.env.BASE_URL}images/Fernand.jpeg` },
+    { name: "Amina R.", role: { fr: "Relation Client", ar: "علاقات العملاء" }, image: `${import.meta.env.BASE_URL}images/Oumaima.jpeg` },
   ];
 
   const commitments = [
