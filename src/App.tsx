@@ -23,7 +23,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/CovanixClean" future={{ v7_relativeSplatPath: true, v7_startTransition: true }}>
+      <BrowserRouter future={{ v7_relativeSplatPath: true, v7_startTransition: true }}>
         <LanguageProvider>
           <ScrollToTop />
           <div className="overflow-x-hidden">
