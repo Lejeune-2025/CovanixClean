@@ -37,7 +37,7 @@ const LegalNotice = () => {
             </section>
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">{t("legal.hosting")}</h2>
-              <p><strong className="text-foreground">{t("legal.hostLabel")}</strong> GitHub Pages</p>
+              <p><strong className="text-foreground">{t("legal.hostLabel")}</strong> {t("legal.hostValue")}</p>
               <p><strong className="text-foreground">{t("legal.addressLabel")}</strong> Casablanca, Maroc</p>
             </section>
             <section>
@@ -47,6 +47,10 @@ const LegalNotice = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">{t("legal.personalData")}</h2>
               <p>{t("legal.personalData.text")}</p>
+            </section>
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">{t("legal.analytics")}</h2>
+              <p>{t("legal.analytics.text")}</p>
             </section>
           </div>
         </div>

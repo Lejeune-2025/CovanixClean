@@ -122,6 +122,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "legal.emailLabel": { fr: "Email :", ar: "البريد الإلكتروني:" },
   "legal.hosting": { fr: "Hébergement", ar: "الاستضافة" },
   "legal.hostLabel": { fr: "Hébergeur :", ar: "المستضيف:" },
+  "legal.hostValue": { fr: "Vercel", ar: "فيرسل" },
   "legal.ip": { fr: "Propriété intellectuelle", ar: "الملكية الفكرية" },
   "legal.ip.text": {
     fr: "L'ensemble de ce site relève de la législation marocaine et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.",
@@ -131,6 +132,11 @@ const translations: Record<string, Record<Lang, string>> = {
   "legal.personalData.text": {
     fr: "Les informations recueillies vous concernant sont indispensables pour répondre à vos demandes d'information et pour vous envoyer la Newsletter (lettre d'information). Elles sont exclusivement destinées à Covanix Clean. Vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données qui vous concernent.",
     ar: "المعلومات التي نجمعها عنكم ضرورية للرد على طلبات المعلومات الخاصة بكم ولإرسال النشرة الإخبارية. وهي مخصصة حصريا لشركة Covanix Clean. لديكم الحق في الوصول إلى بياناتكم وتعديلها وتصحيحها وحذفها."
+  },
+  "legal.analytics": { fr: "Mesure d'audience", ar: "قياس الجمهور" },
+  "legal.analytics.text": {
+    fr: "Ce site utilise Vercel Analytics et Vercel Speed Insights afin de mesurer la frequentation (pages visitees, volume de trafic, performances techniques) et d'ameliorer l'experience utilisateur. Ces donnees sont utilisees uniquement a des fins statistiques et d'optimisation du service.",
+    ar: "يستخدم هذا الموقع Vercel Analytics وVercel Speed Insights لقياس عدد الزيارات (الصفحات التي تمت زيارتها، حجم حركة المرور، والأداء التقني) وتحسين تجربة المستخدم. يتم استخدام هذه البيانات فقط لأغراض إحصائية وتحسين الخدمة."
   },
 
   // Cookies banner
