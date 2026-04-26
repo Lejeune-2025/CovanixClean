@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg.jpg";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const LegalNotice = () => {
+  const { t } = useLanguage();
+
   return (
     <main className="pt-24">
       {/* Hero banner */}
@@ -15,7 +18,7 @@ const LegalNotice = () => {
               animate={{ opacity: 1, y: 0 }}
               className="text-4xl sm:text-5xl font-extrabold text-foreground"
             >
-              Mentions Légales
+              {t("legal.title")}
             </motion.h1>
           </div>
         </div>
@@ -26,30 +29,24 @@ const LegalNotice = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <div className="space-y-10 text-muted-foreground">
             <section>
-              <h2 className="text-2xl font-semibold mb-4 text-foreground">Éditeur du site</h2>
-              <p><strong className="text-foreground">Nom de l'entreprise :</strong> Covanix Clean</p>
-              <p><strong className="text-foreground">Adresse :</strong> Casablanca, Maroc</p>
-              <p><strong className="text-foreground">Téléphone :</strong> +212779788196</p>
-              <p><strong className="text-foreground">Email :</strong> moussagbamou6@gmail.com</p>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">{t("legal.publisher")}</h2>
+              <p><strong className="text-foreground">{t("legal.companyNameLabel")}</strong> Covanix Clean</p>
+              <p><strong className="text-foreground">{t("legal.addressLabel")}</strong> Casablanca, Maroc</p>
+              <p><strong className="text-foreground">{t("legal.phoneLabel")}</strong> +212779788196</p>
+              <p><strong className="text-foreground">{t("legal.emailLabel")}</strong> moussagbamou6@gmail.com</p>
             </section>
             <section>
-              <h2 className="text-2xl font-semibold mb-4 text-foreground">Hébergement</h2>
-              <p><strong className="text-foreground">Hébergeur :</strong> GitHub Pages</p>
-              <p><strong className="text-foreground">Adresse :</strong> Casablanca, Maroc</p>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">{t("legal.hosting")}</h2>
+              <p><strong className="text-foreground">{t("legal.hostLabel")}</strong> GitHub Pages</p>
+              <p><strong className="text-foreground">{t("legal.addressLabel")}</strong> Casablanca, Maroc</p>
             </section>
             <section>
-              <h2 className="text-2xl font-semibold mb-4 text-foreground">Propriété intellectuelle</h2>
-              <p>
-                L'ensemble de ce site relève de la législation marocaine et internationale sur le droit d'auteur et la propriété intellectuelle.
-                Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.
-              </p>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">{t("legal.ip")}</h2>
+              <p>{t("legal.ip.text")}</p>
             </section>
             <section>
-              <h2 className="text-2xl font-semibold mb-4 text-foreground">Données personnelles</h2>
-              <p>
-                Les informations recueillies vous concernant sont indispensables pour répondre à vos demandes d'information et pour vous envoyer la Newsletter (lettre d'information). 
-                Elles sont exclusivement destinées à Covanix Clean. Vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données qui vous concernent.
-              </p>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">{t("legal.personalData")}</h2>
+              <p>{t("legal.personalData.text")}</p>
             </section>
           </div>
         </div>

@@ -106,11 +106,38 @@ const translations: Record<string, Record<Lang, string>> = {
   // Footer
   "footer.description": { fr: "Services de nettoyage professionnel pour particuliers et entreprises. Qualité, fiabilité et satisfaction garantie.", ar: "خدمات تنظيف احترافية للأفراد والشركات. جودة وموثوقية ورضا مضمون." },
   "footer.quickLinks": { fr: "Liens Rapides", ar: "روابط سريعة" },
+  "footer.legalNotice": { fr: "Mentions légales", ar: "الإشعارات القانونية" },
   "footer.contactInfo": { fr: "Contact", ar: "اتصل بنا" },
   "footer.hours": { fr: "Horaires", ar: "أوقات العمل" },
   "footer.hours.weekday": { fr: "Lun - Ven : 8h - 18h", ar: "الاثنين - الجمعة: 8ص - 6م" },
   "footer.hours.weekend": { fr: "Sam : 9h - 14h", ar: "السبت: 9ص - 2م" },
   "footer.rights": { fr: "Tous droits réservés.", ar: "جميع الحقوق محفوظة." },
+
+  // Legal notice
+  "legal.title": { fr: "Mentions Légales", ar: "الإشعارات القانونية" },
+  "legal.publisher": { fr: "Éditeur du site", ar: "ناشر الموقع" },
+  "legal.companyNameLabel": { fr: "Nom de l'entreprise :", ar: "اسم الشركة:" },
+  "legal.addressLabel": { fr: "Adresse :", ar: "العنوان:" },
+  "legal.phoneLabel": { fr: "Téléphone :", ar: "الهاتف:" },
+  "legal.emailLabel": { fr: "Email :", ar: "البريد الإلكتروني:" },
+  "legal.hosting": { fr: "Hébergement", ar: "الاستضافة" },
+  "legal.hostLabel": { fr: "Hébergeur :", ar: "المستضيف:" },
+  "legal.ip": { fr: "Propriété intellectuelle", ar: "الملكية الفكرية" },
+  "legal.ip.text": {
+    fr: "L'ensemble de ce site relève de la législation marocaine et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques.",
+    ar: "يخضع كامل هذا الموقع للتشريعات المغربية والدولية المتعلقة بحقوق النشر والملكية الفكرية. جميع حقوق إعادة الإنتاج محفوظة، بما في ذلك الوثائق القابلة للتنزيل والتمثيلات الأيقونية والفوتوغرافية."
+  },
+  "legal.personalData": { fr: "Données personnelles", ar: "البيانات الشخصية" },
+  "legal.personalData.text": {
+    fr: "Les informations recueillies vous concernant sont indispensables pour répondre à vos demandes d'information et pour vous envoyer la Newsletter (lettre d'information). Elles sont exclusivement destinées à Covanix Clean. Vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données qui vous concernent.",
+    ar: "المعلومات التي نجمعها عنكم ضرورية للرد على طلبات المعلومات الخاصة بكم ولإرسال النشرة الإخبارية. وهي مخصصة حصريا لشركة Covanix Clean. لديكم الحق في الوصول إلى بياناتكم وتعديلها وتصحيحها وحذفها."
+  },
+
+  // Cookies banner
+  "cookies.accept": { fr: "J'accepte", ar: "أوافق" },
+  "cookies.decline": { fr: "Je refuse", ar: "أرفض" },
+  "cookies.text": { fr: "Ce site utilise des cookies pour garantir la meilleure expérience utilisateur.", ar: "يستخدم هذا الموقع ملفات تعريف الارتباط لضمان أفضل تجربة للمستخدم." },
+  "cookies.learnMore": { fr: "Pour en savoir plus sur l'utilisation des cookies, consultez nos", ar: "لمعرفة المزيد حول استخدام ملفات تعريف الارتباط، راجع" },
 
   // CTA
   "cta.title": { fr: "Prêt pour un espace impeccable ?", ar: "مستعد لمساحة نظيفة؟" },

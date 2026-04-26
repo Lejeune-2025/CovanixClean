@@ -42,7 +42,7 @@ const Footer = () => {
                 { to: "/about", label: t("nav.about") },
                 { to: "/contact", label: t("nav.contact") },
                 { to: "/quote", label: t("nav.quote") },
-                { to: "/legal-notice", label: "Mentions légales" },
+                { to: "/legal-notice", label: t("footer.legalNotice") },
               ].map((link) => (
                 <Link key={link.to} to={link.to} className="block text-sm opacity-70 hover:opacity-100 transition-opacity">
                   {link.label}
